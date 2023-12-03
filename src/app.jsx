@@ -4,11 +4,11 @@ import Nav from './components/navtabs'
 function App() {
     return (
         <>
-        <Nav/>
-        <main >
+            <Nav />
+            <main >
 
-        </main>
-        <Outlet/>
+            </main>
+            <Outlet />
         </>
     )
 }
