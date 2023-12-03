@@ -1,8 +1,26 @@
+import '../style/app.css'
+
+const style = {
+phontSize:{
+    // text below wond center my lorem ipsum content
+    display: 'flex',
+    justifyContent: 'center',
+    fontSize: '20px',
+    width: '450px',
+    padding: '10px',
+    wordWrap: 'break-word',
+    
+
+}
+}
+// style={style.phontSize}
+
 export default function Aboutme() {
     return (
-      <div>
+        <>
+      <div className='text-center'>
         <h1>About me</h1>
-        <p>
+        <p  style={style.phontSize}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
           velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
           ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
@@ -15,5 +33,6 @@ export default function Aboutme() {
           fames ac ante ipsum primis in faucibus.
         </p>
       </div>
+      </>
     );
   }
