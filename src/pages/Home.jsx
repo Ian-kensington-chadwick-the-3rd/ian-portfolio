@@ -5,9 +5,7 @@ import { faCode, faLaptopCode, faCubes } from '@fortawesome/free-solid-svg-icons
 
 
 import imgpfp from './assets/ianpfp.jpg'
-import imggit from './assets/githublogo.png'
-import imglnkd from './assets/linkedin.png'
-import imgstck from './assets/stackoverflowlogo.png'
+
 
 
 
@@ -157,25 +155,6 @@ export default function Aboutme() {
                     <button>Contact Me</button>
                 </div>
             </div>
-            <footer>
-                <ul style={style.horizontalList}>
-                    <li>
-                        <a href='https://github.com/Ian-kensington-chadwick-the-3rd'>
-                        <img style={style.iconContainer} src={imggit}></img>
-                        </a>
-                    </li>
-                    <li>
-                    <a href='https://www.linkedin.com/in/ian-sills-668497291/'>
-                        <img style={style.iconContainer} src={imglnkd} ></img>
-                    </a>
-                    </li>
-                    <li>
-                        <a href='https://stackoverflow.com/users/22555275/ian'>
-                        <img style={style.iconContainer} src={imgstck}></img>
-                        </a>
-                    </li>
-                </ul>
-            </footer>
         </>
     );
 }

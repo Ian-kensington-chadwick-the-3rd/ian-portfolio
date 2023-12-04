@@ -17,7 +17,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    
+
 }
 .row{
     width: 80%;
@@ -91,6 +91,9 @@
 footer{
     height: 100px;
     background-color: grey;
+    width: 100%;
+    position: absolute;
+    top:145%;
 }
 
 .borderbelow{
