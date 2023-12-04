@@ -11,7 +11,7 @@ import Home from './pages/Home';
 import Resume from './pages/resume';
 import Portfolio from "./pages/portfolio";
 import Error from "./pages/error"
-
+import './style/app.css'
 // creating a router 
 const router = createBrowserRouter([
     {
