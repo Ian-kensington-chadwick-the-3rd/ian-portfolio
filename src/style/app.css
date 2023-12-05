@@ -43,7 +43,7 @@
 }
 
 .backgroundImage1{
-    background-image: url('./gif full.gif');
+    background-image: url('gif full.gif');
     background-size: cover;
     background-repeat: no-repeat;
 }
