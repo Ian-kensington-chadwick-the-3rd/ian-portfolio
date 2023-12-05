@@ -99,11 +99,8 @@ export default function Aboutme() {
                     </ul>
                 </div>
                 <div> 
-                       
-                        <FontAwesomeIcon style={style.codeSize} icon={faLaptopCode}/>
-                        
-                       
-                    <ul style={style.ulContainer}>
+                     <FontAwesomeIcon style={style.codeSize} icon={faLaptopCode}/>
+                        <ul style={style.ulContainer}>
                         <li>
                             <h1 >Frameworks</h1>
                             <h3>
@@ -143,9 +140,9 @@ export default function Aboutme() {
                 </div>
             </div>
             <div>
-                <div className='btncntr .button1'>
+                <div className='btncntr'>
                     <a href='https://profile.indeed.com/resume'>
-                        <button >check out my resume</button>
+                        <button className='button1'>check out my resume</button>
                     </a>
                 </div>
             </div>

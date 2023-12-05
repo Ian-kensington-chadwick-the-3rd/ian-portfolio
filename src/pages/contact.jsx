@@ -52,7 +52,7 @@ console.log(formInformation)
                     <div className="form-group col-md-6 text-center mx-auto">
                         <label htmlFor="exampleFormControlTextarea1">Message:</label>
                         <textarea name="message" defaultValue={formInformation.message} onBlur={handleChange} className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    <button className="margintop" id="btn" >Submit</button>
+                    <button className="button1 margintop " id="btn" >Submit</button>
                 </div>
                 </form>
             </div>
