@@ -43,32 +43,32 @@
 }
 
 .backgroundImage1{
-    background-image: url('gif full.gif');
+    background-image: url('./gif full.gif');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .backgroundImage2{
-    background-image: url('demo-gif-darwinism.gif');
+    background-image: url('./demo-gif-darwinism.gif');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .backgroundImage3{
-    background-image: url('jatedemo.gif');
+    background-image: url('./jatedemo.gif');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .backgroundImage4{
-    background-image: url('weather-forecast.jpg');
+    background-image: url('./weather-forecast.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .backgroundImage5{
-    background-image: url('svglogogen.gif');
+    background-image: url('./svglogogen.gif');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .backgroundImage6{
-    background-image: url('noteapp.gif');
+    background-image: url('./noteapp.gif');
     background-size: cover;
     background-repeat: no-repeat;
 }
