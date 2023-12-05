@@ -43,7 +43,7 @@
 }
 
 .backgroundImage1{
-    background-image: url('gif full.gif');
+    background-image: url('../pages/assets/gif full.gif');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -53,22 +53,22 @@
     background-repeat: no-repeat;
 }
 .backgroundImage3{
-    background-image: url('./jatedemo.gif');
+    background-image: url('../pages/assets/jatedemo.gif');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .backgroundImage4{
-    background-image: url('./weather-forecast.jpg');
+    background-image: url('../pages/assets/weather-forecast.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .backgroundImage5{
-    background-image: url('./svglogogen.gif');
+    background-image: url('../pages/assets/svglogogen.gif');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .backgroundImage6{
-    background-image: url('./noteapp.gif');
+    background-image: url('../pages/assets/noteapp.gif');
     background-size: cover;
     background-repeat: no-repeat;
 }
