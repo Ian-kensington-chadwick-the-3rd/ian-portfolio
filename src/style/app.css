@@ -43,27 +43,32 @@
 }
 
 .backgroundImage1{
-    background-image: url('./src/pages/assets/cat-nft.png');
+    background-image: url('./src/pages/assets/Space-Jam-X gif full.gif');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .backgroundImage2{
-    background-image: url('./src/pages/assets/cat-nft.png');
+    background-image: url('./src/pages/assets/demo-gif-darwinism.gif');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .backgroundImage3{
-    background-image: url('./src/pages/assets/cat-nft.png');
+    background-image: url('./src/pages/assets/jatedemo.gif');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .backgroundImage4{
-    background-image: url('./src/pages/assets/cat-nft.png');
+    background-image: url('./src/pages/assets/weather-forecast.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .backgroundImage5{
-    background-image: url('./src/pages/assets/cat-nft.png');
+    background-image: url('./src/pages/assets/svglogogen.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.backgroundImage6{
+    background-image: url('./src/pages/assets/noteapp.gif');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -73,15 +78,15 @@
     transition: all .5s ease-in-out;
     color:black;
     position:absolute;
-    z-index: 900;
     font-size: large;
     font-weight: bolder;
     background-color: rgba(200, 200, 200, 0.5);
     width: 100%;
-    height: 20%;
+    height: 30%;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
+    
 }
 
 .text:hover{
@@ -92,7 +97,6 @@ footer{
     height: 100px;
     background-color: grey;
     width: 100%;
-    position: absolute;
     top:145%;
 }
 
@@ -100,4 +104,86 @@ footer{
     border-bottom: 2px solid black;
     width: 400px;
     
+}
+
+.centerbutton{
+    display: flex;
+    justify-content: center;
+
+}
+
+.centercontactform{
+    background-color: grey;
+    width: 350px;
+    padding: '10px';
+    word-wrap: 'break-word';
+}
+.margin{
+    margin-top: 20px;
+}
+.margintop{
+    margin-top: 200px;
+}
+.marginbottom{
+    margin-bottom: 500px;
+}
+
+.icon{
+    opacity: 1; 
+    transition: all .5s ease-in-out;
+}
+
+.icon:hover{
+    opacity: .5;
+}
+
+.giticon{
+    margin-right: 500px;
+    margin-bottom: 295px;
+    font-size: 100px;
+    opacity: 0;
+    
+}
+.giticon:hover{
+    opacity: 1;
+    transition: all .5s ease-in-out;
+}
+
+.btncntr{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.borderRadius{
+    border-radius: 20px;
+}
+
+.margintop{
+    margin-top: 20px;
+}
+
+.button1{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+    }
+    .button1:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+    }
+    @media all and (max-width:30em){
+    .button1{
+    display:block;
+    margin:0.4em auto;
+}
 }

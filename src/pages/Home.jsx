@@ -1,14 +1,6 @@
-import '../style/app.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCode, faLaptopCode, faCubes } from '@fortawesome/free-solid-svg-icons'
-
-
-
-import imgpfp from './assets/ianpfp.jpg'
-
-
-
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCode, faLaptopCode, faCubes } from '@fortawesome/free-solid-svg-icons';
+import imgpfp from './assets/ianpfp.jpg';
 
 
 const style = {
@@ -52,7 +44,8 @@ codeList:{
     backgroundColor: 'grey',
     paddingLeft: '300px',
     paddingRight: '300px',
-    flexWrap: 'wrap'
+    flexWrap: 'wrap',
+    borderRadius: '20px'
 },
 codeSize:{
     height: '100px',
@@ -70,14 +63,13 @@ underBorder:{
     width: '150px'
 }
 }
-// style={style.phontSize}
 
 export default function Aboutme() {
     return (
         <>
             <div className='text-center'  style={style.homeContainer}>
                 <h1>About me</h1>
-                <img style={style.imageContainer} src={imgpfp}></img>
+                <img className='' style={style.imageContainer} src={imgpfp}></img>
                 <p style={style.phontSize}>
                 Welcome my name is Ian Sills and I love to code I just graduated at UC berkley. I am a full stack-web developer that resides in navarre Florida I am currently looking for imployment as a web developer.
                 </p>
@@ -87,7 +79,7 @@ export default function Aboutme() {
                     <FontAwesomeIcon style={style.codeSize} icon={faCode}/>
                     <ul style={style.ulContainer}>
                         <li>
-                            <h1 >languages</h1>
+                            <h1>languages</h1>
                             <h3>
                                 Javascript
                             </h3>
@@ -151,8 +143,10 @@ export default function Aboutme() {
                 </div>
             </div>
             <div>
-                <div className=''>
-                    <button>Contact Me</button>
+                <div className='btncntr .button1'>
+                    <a href='https://profile.indeed.com/resume'>
+                        <button >check out my resume</button>
+                    </a>
                 </div>
             </div>
         </>
