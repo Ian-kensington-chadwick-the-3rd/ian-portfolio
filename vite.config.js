@@ -6,5 +6,8 @@ export default defineConfig({
     server: {
         port:3001,
         open:true
-    }
+    },
+    build: {
+        assetsDir: './src/pages/assets', // the folder where your assets are located
+      },
 })

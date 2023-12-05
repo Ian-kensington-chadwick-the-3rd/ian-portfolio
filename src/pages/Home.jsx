@@ -69,7 +69,7 @@ export default function Aboutme() {
         <>
             <div className='text-center'  style={style.homeContainer}>
                 <h1>About me</h1>
-                <img className='' style={style.imageContainer} src={imgpfp}></img>
+                <img style={style.imageContainer} src={imgpfp}></img>
                 <p style={style.phontSize}>
                 Welcome my name is Ian Sills and I love to code I just graduated at UC berkley. I am a full stack-web developer that resides in navarre Florida I am currently looking for imployment as a web developer.
                 </p>
