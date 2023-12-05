@@ -1,8 +1,9 @@
+// importing images for this file
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faLaptopCode, faCubes } from '@fortawesome/free-solid-svg-icons';
 import imgpfp from './assets/ianpfp.jpg';
 
-
+// using font for this file only
 const style = {
 phontSize:{
     fontSize: '20px',
