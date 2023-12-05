@@ -61,7 +61,7 @@ ulContainer:{
 underBorder:{
     borderBottom: "2px solid white",
     width: '150px'
-}
+},
 }
 
 export default function Aboutme() {

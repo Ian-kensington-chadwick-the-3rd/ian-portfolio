@@ -48,7 +48,7 @@
     background-repeat: no-repeat;
 }
 .backgroundImage2{
-    background-image: url('../src/pages/assets/demo-gif-darwinism.gif');
+    background-image: url('../pages/assets/demo-gif-darwinism.gif');
     background-size: cover;
     background-repeat: no-repeat;
 }
